@@ -1,3 +1,6 @@
+entity MyUser {
+	
+}
 entity School {
 	name String
 }
@@ -7,12 +10,15 @@ entity Classroom {
 }
 
 relationship ManyToMany {
-	Classroom{users(firstname)} to User{classrooms(name)}
+	Classroom{users(firstname)} to MyUser{classrooms(name)}
 }
 
 relationship OneToMany {
 	School{classrooms(name)} to Classroom
 }
 relationship OneToMany {
-	School{users(firstname)} to User
+	School{users(firstname)} to MyUser
+}
+relationship OneToOne {
+	User to MyUser
 }
