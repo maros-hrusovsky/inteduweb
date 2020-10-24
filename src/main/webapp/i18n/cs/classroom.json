@@ -1,0 +1,25 @@
+{
+  "inteduwebApp": {
+    "classroom": {
+      "home": {
+        "title": "Classrooms",
+        "createLabel": "Vytvořit Classroom",
+        "createOrEditLabel": "Vytvořit nebo upravit Classroom",
+        "search": "Vyhledat Classroom",
+        "notFound": "No Classrooms found"
+      },
+      "created": "Byl vytvořen potomek entity Classroom s identifikátorem {{ param }}",
+      "updated": "Potomek entity Classroom s identifikátorem {{ param }} byl upravený.",
+      "deleted": "Potomek entity Classroom s identifikátorem {{ param }} bol smazaný.",
+      "delete": {
+        "question": "Jste si jisti, že chcete smazat Classroom {{ id }}?"
+      },
+      "detail": {
+        "title": "Classroom"
+      },
+      "name": "Name",
+      "users": "Users",
+      "school": "School"
+    }
+  }
+}
