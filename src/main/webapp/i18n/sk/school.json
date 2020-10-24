@@ -1,0 +1,25 @@
+{
+  "inteduwebApp": {
+    "school": {
+      "home": {
+        "title": "Schools",
+        "createLabel": "Pridať School",
+        "createOrEditLabel": "Pridať alebo upraviť School",
+        "search": "Vyhľadať School",
+        "notFound": "No Schools found"
+      },
+      "created": "Bol vytvorený potomok entity School s identifikátorom {{ param }}",
+      "updated": "Potomok entity School s identifikátorom {{ param }} bol upravený.",
+      "deleted": "Potomok entity School s identifikátorom {{ param }} bol vymazaný.",
+      "delete": {
+        "question": "Ste si istý, že chcete vymazať School {{ id }}?"
+      },
+      "detail": {
+        "title": "School"
+      },
+      "name": "Name",
+      "classrooms": "Classrooms",
+      "users": "Users"
+    }
+  }
+}
